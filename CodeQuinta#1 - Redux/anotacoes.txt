@@ -1,0 +1,15 @@
+Anotacoes Redux : 
+
+- Estado global da aplicacao (normalmente se tem um estado apenas para um componente em especifico) 
+
+- Estado global pode ser usado por varios componentes
+
+- Action ouvida pelo Middlewares, manipulacao de dados enviados para o reducers
+
+- Reducer, unico local onde se pode alterar o estado da aplicacao. Adicionar novo item, remover, alterar. Ouve a action.
+
+- Reducer APENAS altera o estado da aplicacao, ele nao faz requisicao de api, banco de dados etc...
+
+- Alteracao de estado: cria outro estado => substitui o antigo por ele ( o antigo se perde ), variaveis dentro do redux sao imutaveis. 
+
+- CodeQuinta#1 -> 49:11 , linha 7, nao seria melhor gerar um id sequencial para aproveitamento de memoria ? 
