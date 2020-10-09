@@ -12,8 +12,10 @@ Anotacoes Redux :
 
 - Alteracao de estado: cria outro estado => substitui o antigo por ele ( o antigo se perde ), variaveis dentro do redux sao imutaveis. 
 
+================================================================
+
 - CodeQuinta#1 -> 49:11 , linha 7, nao seria melhor gerar um id sequencial para aproveitamento de memoria ? 
 
-- CodeQuinta#1 -> 28:00 , outros reducers ?.. Eles nao entrariam no switch case ? 
+- CodeQuinta#1 -> outros arquivos de reducers ?.. Eles nao entrariam no switch case ? 
 
 - Duvida em implementacao do redux na main/componente
